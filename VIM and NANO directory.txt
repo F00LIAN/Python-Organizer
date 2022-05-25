@@ -1,0 +1,90 @@
+touunVIM
+
+Start typing 
+i - insert
+o - newline
+
+Exit insert mode 
+esc
+
+
+Save File
+:w - writes the file
+:wq - save and quit
+
+EXIT
+:q - quit
+:q! - force quit
+
+Turn on numbers
+:set number
+
+NANO
+
+ctrl + o = save 
+
+
+
+Command Line keys:
+
+pwd #print working directory
+
+ls -a #list all files IN DIRECTORY
+ls # list files in current directory\
+
+clear # clear space
+
+touch # creates a new file
+
+cd dir1 #change directory, go to dir1
+cd dir1/subdir1 #goes to dir1/subdir1
+cd .. #go back
+
+mkdir dir1 # in current dir
+mkdir dir1/subdir1 # in dir1
+
+mv file1.txt dir1 #move file to dir1
+mv dir1 .. #move dir1 back
+mv file1.txt file2.txt #?
+
+cp #copy
+cp file1.txt file1_copy.txt #copy the contents of file1.txt to file1_copy.txt
+cp -r dir1 dir2 #copy the contents of dir1 (and all the directories within) to dir2
+
+rm file1.txt #removes file1.txt
+rm -r dir1 #removes dir1
+rm -r * #(nukes everything)
+
+cat #display file
+
+Command Line Keys 2:
+git config --global user.name "Your name"   #sets the name associated with all of the commits
+
+git config --global user.email "hi@hi.com" # set email associated 
+
+git clone # clone GitHub repositories
+
+git status # view the status of the file
+
+git add # puts the file into the staging area, do first before committing to changes. 
+
+git commit # opens vim before committing changes. 
+
+git commit -m "changes" # faster method 
+
+git fetch # updates ONLY your local repository with changes in the remote repository. wq
+
+press q to exit
+
+git log # see a log of full commits
+
+git log -n # to see the last commits
+
+git checkout # goes back to before the commit
+
+git init # Will initialize a new git repository by creating a .git directory
+ 	     that will be used for holding all of the information under it. For new folders. 
+git remote add #new repository on Github, create a name for the website
+
+git push -u origin (master/main) # pushes the data through to Github. 
+
